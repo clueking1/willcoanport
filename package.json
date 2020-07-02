@@ -18,7 +18,9 @@
     "start": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts start",
     "build": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts build",
     "test": "cross-env AUTOPREFIXER_GRID=autoplace react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "cross-env AUTOPREFIXER_GRID=autoplace npm run build",
+    "deploy": "cross-env AUTOPREFIXER_GRID=autoplace gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +40,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.4",
-    "cross-env": "^7.0.2"
+    "cross-env": "^7.0.2",
+    "gh-pages": "^2.2.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.4"
   }
 }
