@@ -1,10 +1,13 @@
 import React from 'react'
+import HomePageCon from '../../components/homepage'
 import './style.css'
 
 function HomePage() {
 
-    return(
-        
+    return (
+        <div className="homePageWrapper">
+            <HomePageCon />
+        </div>
     )
 }
 
