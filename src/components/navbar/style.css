@@ -24,11 +24,10 @@
     text-decoration: none;
     border-right: 1px solid rgb(39, 39, 36);
     background-image: linear-gradient(to bottom right, rgb(78, 82, 79), rgb(82, 82, 60));
-    transition: .3s ease-in-out;
+    transition: .8s ease-in-out;
 }
 
 .link:hover {
-    font-size: 29px;
     background-image: linear-gradient(to bottom left, rgb(78, 82, 79), rgb(126, 126, 89));
 }
 

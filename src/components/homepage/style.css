@@ -13,3 +13,43 @@
     background-image:(90deg, rgba(15, 15, 15, 0.87), rgba(22, 59, 90, 0.856));
     opacity: .9;
 }
+
+.homeTitle {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.port {
+    display: flex;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: row wrap;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.port button {
+    max-width: 40px;
+    min-width: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.last {
+    margin-bottom: 80px;
+}
+
+
