@@ -1,4 +1,5 @@
 import React from 'react'
+import pdf from './assets/WillCoanRe.pdf'
 import './style.css'
 
 function NavBar() {
@@ -20,7 +21,7 @@ function NavBar() {
                     <a className=" title" href="/">Will Coan</a>
                 </div>
        
-                    <a href="assets/WillCoanRe.pdf" target="_blank" className="link tag left d">
+                    <a href={pdf} target="_blank" className="link tag left d">
                         <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                     </a>
               
