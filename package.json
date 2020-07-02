@@ -1,6 +1,6 @@
 {
-  "name": "https://clueking1.github.io/willcoanport/",
-  "homepage": "willcoan.com",
+  "name": "willcoanport",
+  "homepage": "https://clueking1.github.io/willcoanport/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
