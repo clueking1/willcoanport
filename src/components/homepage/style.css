@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen&display=swap');
 .hpWrap {
     height: 100%;
     width: 100%;
     background-image: url("./assets/embossed-diamond.png");
     overflow: auto;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .hpColor {
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-image:-webkit-linear-gradient(90deg, rgba(15, 15, 15, 0.87), rgba(22, 59, 90, 0.856));
-    background-image:(90deg, rgba(15, 15, 15, 0.87), rgba(22, 59, 90, 0.856));
+    background-image:-webkit-linear-gradient(90deg, rgba(15, 15, 15, 0.87), rgba(80, 66, 5, 0.856));
+    background-image:(90deg, rgba(15, 15, 15, 0.87), rgba(80, 66, 5, 0.856));
     opacity: .9;
 }
 
@@ -37,8 +39,15 @@ img {
     margin: 0 auto;
     border: 1px solid black;
     padding: 5px;
-    background-color: white;
-    margin-bottom: 10px;
+    background-color: rgba(172, 153, 99, 0.904);
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 10px 4px 8px 4px #6959369f
+}
+
+.languages {
+    margin-right: 10px;
+    padding: 1px;
 }
 
 .port button {
@@ -75,7 +84,7 @@ img {
         border: 1px solid black;
         padding: 5px;
         background-color: white;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     .port button {
         max-width: 100%;
