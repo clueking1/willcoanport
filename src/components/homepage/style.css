@@ -44,6 +44,7 @@ img {
 .port button {
     max-width: 40px;
     min-width: 40px;
+    height: 100%;
     text-align: center;
     font-size: 30px;
 }
@@ -51,5 +52,40 @@ img {
 .last {
     margin-bottom: 80px;
 }
+
+@media only screen and (max-width: 810px) {
+    .homeTitle {
+        width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    img {
+        margin: 0 auto;
+    }
+    .port {
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        justify-content: center;
+        flex-flow: column;
+        margin: 0 auto;
+        border: 1px solid black;
+        padding: 5px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+    .port button {
+        max-width: 100%;
+        min-width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .last {
+        margin-bottom: 140px;
+    }
+  }
 
 
