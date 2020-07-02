@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import pdf from './assets/WillCoanRe.pdf'
 import './style.css'
 
 function NavBar() {
-
+    const [which, setWhich] = useState('Will Coan')
+    useEffect(() => {
+        
+        if (window.innerWidth < 400) {
+            setWhich('WC')
+        }
+    },[])
     return (
         <div className="bottom">
             <div className="footNavWrap">
@@ -18,7 +24,7 @@ function NavBar() {
                     </a>
     
                 <div className="navTitle c">
-                    <a className=" title" href="/">Will Coan</a>
+                    <a className=" title" href="/">{which}</a>
                 </div>
        
                     <a href={pdf} target="_blank" className="link tag left d">
